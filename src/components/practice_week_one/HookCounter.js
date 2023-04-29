@@ -9,9 +9,6 @@ function HookCounter() {
     <div>
         <button onClick={ () => setCount(count + 1)}>Count - {count}</button>
     </div>
-    <div>
-        <button onClick={ () => setState(`${subscribe}d`)}>Subscribe{subscribe}</button>
-    </div>
     </>    
   )
 }
