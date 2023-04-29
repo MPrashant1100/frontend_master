@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import ToDoList from './components/practice_week_one/ToDoList';
+import ShoppingList from './components/practice_week_one/ShoppingList';
+import HookCounter from './components/practice_week_one/HookCounter'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <ToDoList/>
+     <ShoppingList/>
+     <HookCounter/>
     </div>
   );
 }
