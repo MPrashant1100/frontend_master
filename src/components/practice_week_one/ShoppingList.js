@@ -1,9 +1,7 @@
 import React,{useState} from 'react'
-
 function ShoppingList() {
     const [products, setProducts] = useState([])
     const [product, setProduct] = useState('')
-
     const handleAddProduct = () => {
         setProducts((products) => [...products, product])
         setProduct('')
