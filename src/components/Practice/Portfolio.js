@@ -9,16 +9,16 @@ function Portfolio() {
                     <h1 className='text-xl font-bold'>Portfolio</h1>
                 </div>
                 <div className='flex space-x-3'>
-                    <h1>Home</h1>
-                    <h1>About</h1>
-                    <h1>Contact</h1>
+                    <h1 className='hover:cursor-pointer'>Home</h1>
+                    <h1 className='hover:cursor-pointer'>About</h1>
+                    <h1 className='hover:cursor-pointer'>Contact</h1>
                 </div>                
             </nav>
-            <div className='flex flex-row items-center bg-white m-5 p-5 px-10h-1/4 w-auto rounded-lg shadow-lg'>
-                <div className='basis-1/5 rounded p-2'><img src='./images/Pic.jpeg'/></div>
-                <div className='basis-4/5'>
-                    <h1 className=' text-3xl font-bold'>Prashant Mishra</h1>
-                    <p className='text-xl mt-4'>Software Engineer at Accenture</p>
+            <div className='flex flex-row items-center bg-white m-5 p-5 px-10 h-1/4 w-auto rounded-lg shadow-lg'>
+                <div className='basis-1/5'><img className='rounded-full mx-6' src='./images/Pic.jpeg'/></div>
+                <div className='basis-4/5 mx-8 shadow'>
+                    <h1 className=' text-3xl font-bold mt-5'>Prashant Mishra</h1>
+                    <p className='text-xl m-4'>Software Engineer at Accenture</p>
                 </div>
             </div>
             <div className='flex flex-row items-center h-1/3 my-10 shadow'>
